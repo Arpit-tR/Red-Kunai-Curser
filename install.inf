@@ -1,0 +1,48 @@
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur
+AddReg = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%cur_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%cur_DIR%\%pointer%,%10%\%cur_DIR%\%help%,%10%\%cur_DIR%\%work%,%10%\%cur_DIR%\%busy%,%10%\%cur_DIR%\%Cross%,%10%\%cur_DIR%\%Text%,%10%\%cur_DIR%\%Hand%,%10%\%cur_DIR%\%Unavailiable%,%10%\%cur_DIR%\%Vert%,%10%\%cur_DIR%\%Horz%,%10%\%cur_DIR%\%Dgn1%,%10%\%cur_DIR%\%Dgn2%,%10%\%cur_DIR%\%move%,%10%\%cur_DIR%\%alternate%,%10%\%cur_DIR%\%link%"
+
+[Scheme.Cur]
+alter.cur
+Busy1.ani
+Busy2.ani
+hand.cur
+help.cur
+link.cur
+move.cur
+normal.cur
+presel.cur
+resdiagl.cur
+resdiagr.cur
+reshor.cur
+resver.cur
+type.cur
+unav.cur
+
+[Strings]
+cur_DIR = "Cursors\Red Kunai v1.0"
+SCHEME_NAME = "Red Kunai v1.0"
+busy = "busy2.ani"
+dgn1 = "resdiagl.cur"
+dgn2 = "resdiagr.cur"
+help = "help.cur"
+horz = "reshor.cur"
+link = "link.cur"
+move = "move.cur"
+pointer = "normal.cur"
+unavailiable = "unav.cur"
+vert = "resver.cur"
+work = "busy1.ani"
+cross = "presel.cur"
+text = "type.cur"
+hand = "hand.cur"
+alternate = "alter.cur"
