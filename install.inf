@@ -1,5 +1,14 @@
+
+;	Arpit-tR
+;	Cursors created by Arpit-tR, 09/2024
+;	https://github.com/Arpit-tR
+
+
+
+
+
 [Version]
-signature="$CHICAGO$"
+signature="$Windows NT$"
 
 [DefaultInstall]
 CopyFiles = Scheme.Cur
@@ -9,7 +18,7 @@ AddReg = Scheme.Reg
 Scheme.Cur = 10,"%cur_DIR%"
 
 [Scheme.Reg]
-HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%cur_DIR%\%pointer%,%10%\%cur_DIR%\%help%,%10%\%cur_DIR%\%work%,%10%\%cur_DIR%\%busy%,%10%\%cur_DIR%\%Cross%,%10%\%cur_DIR%\%Text%,%10%\%cur_DIR%\%Hand%,%10%\%cur_DIR%\%Unavailiable%,%10%\%cur_DIR%\%Vert%,%10%\%cur_DIR%\%Horz%,%10%\%cur_DIR%\%Dgn1%,%10%\%cur_DIR%\%Dgn2%,%10%\%cur_DIR%\%move%,%10%\%cur_DIR%\%alternate%,%10%\%cur_DIR%\%link%"
+HKCU,"Control Panel\Cursors\Schemes","Red Kunai v1.0",,"%10%\%cur_DIR%\%pointer%,%10%\%cur_DIR%\%help%,%10%\%cur_DIR%\%work%,%10%\%cur_DIR%\%busy%,%10%\%cur_DIR%\%Cross%,%10%\%cur_DIR%\%Text%,%10%\%cur_DIR%\%Hand%,%10%\%cur_DIR%\%Unavailiable%,%10%\%cur_DIR%\%Vert%,%10%\%cur_DIR%\%Horz%,%10%\%cur_DIR%\%Dgn1%,%10%\%cur_DIR%\%Dgn2%,%10%\%cur_DIR%\%move%,%10%\%cur_DIR%\%alternate%,%10%\%cur_DIR%\%link%,%10%\%cur_DIR%\%pin%,%10%\%cur_DIR%\%person%,"
 
 [Scheme.Cur]
 alter.cur
@@ -27,6 +36,8 @@ reshor.cur
 resver.cur
 type.cur
 unav.cur
+location.cur
+people.cur
 
 [Strings]
 cur_DIR = "Cursors\Red Kunai v1.0"
@@ -46,3 +57,5 @@ cross = "presel.cur"
 text = "type.cur"
 hand = "hand.cur"
 alternate = "alter.cur"
+pin = "location.cur"
+person = "people.cur"
